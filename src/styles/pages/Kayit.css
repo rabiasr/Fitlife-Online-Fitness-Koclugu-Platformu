@@ -1,0 +1,56 @@
+
+
+.dıs {
+
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #591f6d;
+    padding: 100px;
+    border-radius: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.dıs .ic input { 
+    padding: 10px;
+    outline: none;
+    font-size: 12px;
+    align-items: flex-end;
+    width: 70vh;
+
+}
+
+.dıs .ic label {
+    cursor: pointer;
+    text-align: right;
+    color: rgb(70, 8, 99);
+    font-size: medium;
+    font-style: oblique;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+ 
+.dıs .ic .dıs-ic-sag button {
+
+    padding: 10px;
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    border-radius: 4px;
+    background-color: rgb(98, 31, 118);
+    cursor: pointer;
+    color: white;
+}
+
+.dıs .ic h2 {
+    margin-top: 1px;
+    text-align: center;
+}

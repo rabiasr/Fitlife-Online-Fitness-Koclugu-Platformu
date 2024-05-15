@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 80%;
+  }
+  
+  .app {
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    position: relative;
+    height: 400vh; 
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px;
+    z-index: 1; 
+  }
+  
+   .background-image {
+    background-image: url('https://media.istockphoto.com/id/529664572/tr/foto%C4%9Fraf/fruit-background.jpg?s=612x612&w=0&k=20&c=DrXMV_U4FOOT4nHHJE5cHDLjY1YBs6Yj288r-qFXX5w='); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 125%;
+    height: 170%;
+    position: absolute;
+    top: -50;
+    left: -50;
+    opacity: 0.8; 
+    z-index: -10;
+}

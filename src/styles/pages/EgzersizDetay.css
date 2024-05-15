@@ -1,0 +1,50 @@
+
+
+.egzersizdetay {
+    display: flex;
+    align-items: center; 
+    height: 100vh; 
+    margin-left: 100px;
+    margin-top: 0px; 
+    
+  }
+  
+  .egzersizdetay table {
+    width: 93%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  
+  .egzersizdetay h2 {
+    background-color: rgba(190, 117, 186, 0.714);
+    padding: 10px;
+    width: 660px;
+    color: #383535;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    align-items:center;
+    margin-left: 6%;
+  }
+  
+  
+  .egzersizdetay table th,
+  .egzersizdetay table td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    text-align: left;
+    color:rgb(54, 16, 47)
+  }
+  
+  .egzersizdetay table th {
+    background-color: #6c2794;
+  }
+  
+  .egzersizdetay table tr {
+    background-color: rgb(179, 140, 214);
+  }
+  
+    

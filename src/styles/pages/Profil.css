@@ -1,0 +1,79 @@
+/* Stil.css */
+
+.profil {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ust-yukarı,
+  .ust-asagi {
+    margin-bottom: 20px;
+  }
+  
+  .ust-yukarı-ust,
+  .ust-yukarı-alt,
+  .ust-asagi-ic {
+    margin-bottom: 16px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #9c27b0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  .cikis-buton {
+    background-color: #9c27b0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .cikis-buton:hover {
+    background-color: #7b1fa2;
+  }
+  

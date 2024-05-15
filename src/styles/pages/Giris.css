@@ -1,0 +1,49 @@
+.giris{
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #591f6d;
+    padding: 100px;
+    border-radius: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.giris input {
+    margin-bottom: 20px;
+     padding: 30px;
+     /* margin: 15px 0px; */
+     outline: none;
+     font-size: 20px;
+     align-items: flex-end;
+     width: 70vh;
+ 
+ }
+ .giris button {
+
+    padding: 25px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgb(98, 31, 118);
+    cursor: pointer;
+    color: white;
+}
+.giris .ic label{
+    cursor: pointer;
+    text-align: leftt;
+    color: rgb(70, 8, 99);
+    font-size: 25px;
+    font-style: oblique;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.giris .ic h1{
+    font-size: 50px;
+}
